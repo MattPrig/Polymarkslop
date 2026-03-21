@@ -72,6 +72,25 @@
             </div>
         </main>
     </div>
-</body>
+    
+    <!-- Popup Pari Fait -->
+    <div class="popup-overlay" id="betPopup">
+        <div class="popup-content">
+            <span class="popup-icon">🎉</span>
+            <div class="popup-text">Pari fait !</div>
+        </div>
+    </div>
 
+    <script>
+        document.querySelector('.bet-button').addEventListener('click', function() {
+            const popup = document.getElementById('betPopup');
+            popup.classList.add('show');
+            
+            // Masquer la popup après 2.5 secondes
+            setTimeout(() => {
+                popup.classList.remove('show');
+            }, 2500);
+        });
+    </script>
+</body>
 </html>
