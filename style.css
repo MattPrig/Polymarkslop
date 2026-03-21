@@ -198,8 +198,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 163, 255, 0.4);
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
 }
 
 .bet-button:hover {
-    background: #008be5;
+    background-color: #008be5;
+}
+
+.bet-button:active {
+    transform: scale(0.95);
 }
