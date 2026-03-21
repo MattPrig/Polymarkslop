@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Polymarket - PSG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-area">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- A simple polymorphic logo similar to Polymarket's triangles -->
+                    <path d="M12 22L2 12L12 2L22 12V22H12Z" stroke="white" stroke-width="2" fill="none"/>
+                    <path d="M2 12H22" stroke="white" stroke-width="2"/>
+                    <path d="M12 2V22" stroke="white" stroke-width="2"/>
+                </svg>
+                <div class="logo-text">Polymarket</div>
+            </div>
+            <div class="header-right">
+                <button class="connect-btn">Log In</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Market Card -->
+            <div class="market-card">
+                <div class="market-header">
+                    <img src="icon.png" alt="PSG Icon" class="market-icon">
+                    <h1 class="market-title">PSG VICTORIEUX EN LIGUE 1</h1>
+                </div>
+                
+                <div class="market-stats">
+                    <span class="stat-badge">$4.8M Vol.</span>
+                    <span class="stat-badge">May 18</span>
+                </div>
+                
+                <div class="prediction-section">
+                    <div class="prediction-labels">
+                        <div class="label-oui">Oui 2¢</div>
+                        <div class="label-non">Non 98¢</div>
+                    </div>
+                    <div class="prediction-bar-bg">
+                        <div class="prediction-bar-oui"></div>
+                        <div class="prediction-bar-non"></div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="buy-btn yes-btn">
+                        <div class="btn-text">
+                            <span class="btn-action">Buy Yes</span>
+                        </div>
+                        <span class="btn-price">2¢</span>
+                    </button>
+                    <button class="buy-btn no-btn">
+                        <div class="btn-text">
+                            <span class="btn-action">Buy No</span>
+                        </div>
+                        <span class="btn-price">98¢</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Giant Parier Button -->
+            <div class="bottom-action">
+                <button class="bet-button">PARIER</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
