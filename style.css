@@ -187,22 +187,22 @@ body {
 
 .bet-button {
     width: 100%;
-    background: var(--brand-blue);
+    background: var(--brand-red);
     color: white;
     border: none;
     padding: 20px;
     border-radius: 12px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0, 163, 255, 0.4);
+    box-shadow: 0 4px 15px rgba(255, 90, 90, 0.4);
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
 }
 
 .bet-button:hover {
-    background-color: #008be5;
+    background-color: #e54141;
 }
 
 .bet-button:active {
